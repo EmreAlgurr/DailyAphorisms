@@ -1,0 +1,32 @@
+name: daily_aphorisms
+description: "Daily Aphorism & Quote — Minimalist günlük söz uygulaması"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  home_widget: ^0.9.1
+  shared_preferences: ^2.2.2
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/widget_bg_edited.jpg"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/widget_bg_edited.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
